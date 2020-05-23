@@ -10,7 +10,7 @@ from time import ctime
 import sys
 
 try:
-    import COVID19Py # the module used to get the data for the coronavirus counter, install with "pip install COVID19py"
+    import COVID19Py # the module used to get the data for the coronavirus counter, also needs the requests module, install with "pip install COVID19py requests"
     cantImport = False
 except:
     cantImport = True
